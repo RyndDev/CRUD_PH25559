@@ -8,9 +8,7 @@ function App() {
                 <Counter />
                 <hr />
                 <ProductList />
-                {/* 
-                <hr />
-                <Cart /> */}
+                
             </div>
         </>
     );

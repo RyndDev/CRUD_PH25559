@@ -7,6 +7,14 @@
     {
       "id": 2,
       "name": "product B"
+    },
+    {
+      "name": "Product C",
+      "id": 4
+    },
+    {
+      "name": "Product C",
+      "id": 5
     }
   ]
 }

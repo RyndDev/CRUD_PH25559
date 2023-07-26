@@ -4,12 +4,13 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-        "dev": "concurrently vite \"json-server-auth db.json --watch\"",
+        "dev": "vite",
         "build": "tsc && vite build",
         "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
     "dependencies": {
+        "@reduxjs/toolkit": "^1.9.5",
         "axios": "^1.4.0",
         "immer": "^10.0.2",
         "react": "^18.2.0",
